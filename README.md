@@ -1,4 +1,8 @@
-Dự án code giao diện The Band sử dụng HTML - CSS cơ bản
+# Dự án code giao diện The Band sử dụng HTML - CSS cơ bản
+
+### Templates:
+
+https://fullstack.edu.vn/external-url?continue=https%3A%2F%2Fwww.w3schools.com%2Fw3css%2Ftryw3css_templates_band.htm
 
 ## Các Thành Phần Thường Gặp Trên Website:
 
@@ -10,3 +14,7 @@ Dự án code giao diện The Band sử dụng HTML - CSS cơ bản
 - 6.Content (Nội Dung Chính).
 - 7.Banner (Ảnh Quảng Cáo)
 - 8.Footer (Chân Trang).
+
+### Author:
+
+Thanh Tịnh - thanhtinh.yarushi@gmail.com
