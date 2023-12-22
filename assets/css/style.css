@@ -4,3 +4,55 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: JetBrains Mono, Arial, Helvetica, sans-serif;
+}
+
+/* 
+    1. Ngoài vào Trong
+    2. Từ Trên xuống dưới
+    3. Tổng Quan Chi Tiết
+*/
+/* 
+    1. vị trí
+    2. kích thước (width, height)
+    3. màu sắc
+    4. kiểu dáng
+*/
+.wrapper {
+}
+
+.header {
+  height: 46.5px;
+  background-color: #000;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 46.5px;
+  padding: 12px 24px;
+}
+
+#nav li:hover a {
+  color: #000;
+  background-color: #ccc;
+}
+
+#nav .subnav {
+  display: none;
+}
+
+.slider {
+}
+
+.content {
+}
+
+.footer {
+}
