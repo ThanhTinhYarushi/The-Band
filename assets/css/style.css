@@ -20,6 +20,11 @@ html {
     3. màu sắc
     4. kiểu dáng
 */
+
+.clear {
+  clear: both;
+}
+
 .wrapper {
 }
 
@@ -129,10 +134,12 @@ html {
   transform: translateX(-50%);
   text-align: center;
 }
+
 .slider .text-heading {
   font-weight: 500;
   font-size: 24px;
 }
+
 .slider .text-description {
   font-size: 15px;
   margin-top: 25px;
@@ -173,6 +180,27 @@ html {
 .content .section-heading,
 .content .section-subheading {
   text-align: center;
+}
+
+.content .member-list {
+  margin-top: 48px;
+  /* overflow: hidden; */
+}
+
+.content .member-item {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.content .member-name {
+  font-size: 15px;
+}
+
+.content .member-img {
+  width: 154px;
+  margin-top: 15px;
+  border-radius: 4px;
 }
 
 .footer {
