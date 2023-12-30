@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* ! Reset CSS */
 * {
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@ html {
   /* JetBrains Mono, */
 }
 
-/* Cách làm Việc like a boss =)))
+/*  * Cách làm Việc like a boss =)))
     1. Ngoài vào Trong
     2. Từ Trên xuống dưới
     3. Tổng Quan Chi Tiết
@@ -23,7 +23,7 @@ html {
     4. kiểu dáng
 */
 
-/* Common */
+/* * Common */
 .clear {
   clear: both;
 }
@@ -93,9 +93,9 @@ html {
   margin-top: 16px !important;
 }
 
-/* Main */
+/* * Main */
 
-/* -> Wrapper/Main  */
+/* * Wrapper/Main  */
 
 .header {
   height: 46px;
@@ -162,7 +162,7 @@ html {
   line-height: 38px;
 }
 
-/* -> Icon */
+/* * Icon */
 #nav .nav-arrow-down {
   font-size: 14px;
 }
@@ -183,7 +183,7 @@ html {
   line-height: 46px;
 }
 
-/* -> Slider  */
+/* * Slider  */
 .slider {
   margin-top: 46px;
   padding-top: 50%;
@@ -212,7 +212,7 @@ html {
   margin-top: 25px;
 }
 
-/* -> Content */
+/* * Content */
 
 .content .content-section {
   width: 800px;
@@ -263,7 +263,7 @@ html {
   border-radius: 4px;
 }
 
-/* -> Tour */
+/* * Tour */
 .tour-section {
   background-color: #000;
 }
@@ -300,7 +300,7 @@ html {
   margin-top: -3px;
 }
 
-/* -> Places */
+/* * Places */
 .places-list {
   margin-top: 32px;
   /* margin-bottom: 48px; */
@@ -336,7 +336,7 @@ html {
   line-height: 1.4;
 }
 
-/* -> modal */
+/* * modal */
 .modal {
   position: fixed;
   top: 0;
@@ -444,7 +444,7 @@ html {
   }
 }
 
-/* -> Contact from */
+/* * Contact from */
 
 .contact-info {
   font-size: 18px;
@@ -467,12 +467,12 @@ html {
   /* outline: none; */
 }
 
-/* -> Map */
+/* * Map */
 .map-section img {
   width: 100%;
 }
 
-/* -> Footer */
+/* * Footer */
 .footer {
   padding: 64px 16px;
   text-align: center;
@@ -501,7 +501,7 @@ html {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/* Recycle Bin: 
+/* * Recycle Bin: 
 -> Wrapper/Main
   .wrapper {
   }
