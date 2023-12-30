@@ -22,6 +22,7 @@ html {
     3. màu sắc
     4. kiểu dáng
 */
+
 /* Common */
 .clear {
   clear: both;
@@ -93,8 +94,8 @@ html {
 }
 
 /* Main */
-.wrapper {
-}
+
+/* -> Wrapper/Main  */
 
 .header {
   height: 46px;
@@ -139,9 +140,6 @@ html {
   display: block;
 }
 
-#nav li:hover a {
-}
-
 #nav .subnav li:hover a,
 #nav > li:hover > a {
   color: #000;
@@ -164,7 +162,7 @@ html {
   line-height: 38px;
 }
 
-/* Icon */
+/* -> Icon */
 #nav .nav-arrow-down {
   font-size: 14px;
 }
@@ -185,6 +183,7 @@ html {
   line-height: 46px;
 }
 
+/* -> Slider  */
 .slider {
   margin-top: 46px;
   padding-top: 50%;
@@ -213,8 +212,7 @@ html {
   margin-top: 25px;
 }
 
-.content {
-}
+/* -> Content */
 
 .content .content-section {
   width: 800px;
@@ -255,10 +253,6 @@ html {
   /* overflow: hidden; */
 }
 
-/* .content .member-item {
-  text-align: center;
-} */
-
 .content .member-name {
   font-size: 15px;
 }
@@ -269,6 +263,7 @@ html {
   border-radius: 4px;
 }
 
+/* -> Tour */
 .tour-section {
   background-color: #000;
 }
@@ -305,15 +300,11 @@ html {
   margin-top: -3px;
 }
 
-/* Places */
+/* -> Places */
 .places-list {
   margin-top: 32px;
   /* margin-bottom: 48px; */
 }
-
-/* .place-item {
-  width: calc(100% / 3);
-} */
 
 .place-img {
   width: 100%;
@@ -334,16 +325,18 @@ html {
   font-size: 15px;
   font-weight: 600;
 }
+
 .place-time {
   margin-top: 15px;
   color: #757575;
 }
+
 .place-desc {
   margin-top: 15px;
   line-height: 1.4;
 }
 
-/* modal */
+/* -> modal */
 .modal {
   position: fixed;
   top: 0;
@@ -451,9 +444,7 @@ html {
   }
 }
 
-/* Contact from */
-.contact-content {
-}
+/* -> Contact from */
 
 .contact-info {
   font-size: 18px;
@@ -476,21 +467,12 @@ html {
   /* outline: none; */
 }
 
-/* .contact-form .form-submit-btn {
-  background-color: #000;
-  color: #fff;
-  border: 1px solid #000;
-  padding: 10px 16px;
-  float: right;
-  cursor: pointer;
-} */
-
-/* Map */
+/* -> Map */
 .map-section img {
   width: 100%;
 }
 
-/* Footer */
+/* -> Footer */
 .footer {
   padding: 64px 16px;
   text-align: center;
@@ -518,3 +500,21 @@ html {
 .footer .copyright a {
   color: rgba(0, 0, 0, 0.6);
 }
+
+/* Recycle Bin: 
+-> Wrapper/Main
+  .wrapper {
+  }
+
+  #nav li:hover a {
+}
+
+.content {
+}
+
+.contact-content {
+}
+
+.wrapper {
+}
+*/
