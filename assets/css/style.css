@@ -6,7 +6,8 @@
 }
 
 html {
-  font-family: JetBrains Mono, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  /* JetBrains Mono, */
 }
 
 /* Cách làm Việc like a boss =)))
@@ -20,7 +21,7 @@ html {
     3. màu sắc
     4. kiểu dáng
 */
-
+/* Common */
 .clear {
   clear: both;
 }
@@ -29,6 +30,48 @@ html {
   color: #fff !important;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-third {
+  width: calc(100% / 3);
+}
+
+.col-half {
+  width: calc(100% / 2);
+}
+
+.col-full {
+  width: 100%;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+/* Main */
 .wrapper {
 }
 
@@ -191,11 +234,9 @@ html {
   /* overflow: hidden; */
 }
 
-.content .member-item {
-  float: left;
-  width: calc(100% / 3);
+/* .content .member-item {
   text-align: center;
-}
+} */
 
 .content .member-name {
   font-size: 15px;
@@ -243,14 +284,16 @@ html {
   margin-top: -3px;
 }
 
+/* Places */
 .places-list {
-  margin: 32px -9px 48px;
+  margin-top: 32px;
+  margin-bottom: 48px;
 }
-.place-item {
-  float: left;
+
+/* .place-item {
   width: calc(100% / 3);
-  padding: 0 8px;
-}
+} */
+
 .place-img {
   width: 100%;
   display: block;
@@ -399,6 +442,39 @@ html {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+/* Contact from */
+.contact-content {
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+  width: 30px;
+  display: inline-block;
+}
+
+.contact-form {
+  font-size: 15px;
+}
+
+.contact-form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* outline: none; */
+}
+
+.contact-form .form-submit-btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 10px 16px;
+  float: right;
 }
 
 .footer {
