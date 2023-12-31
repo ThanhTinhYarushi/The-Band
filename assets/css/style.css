@@ -501,6 +501,12 @@ html {
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* * Reposive
+  PC: >= 1024px
+  Tablet: >= 740 & < 1024px
+  Mobile: <= 739px
+*/
+
 /* * Recycle Bin: 
 -> Wrapper/Main
   .wrapper {
