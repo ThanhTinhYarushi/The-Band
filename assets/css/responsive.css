@@ -1,12 +1,23 @@
-/* Pc */
+/*!  Pc */
 @media (min-width: 1024px) {
 }
 
-/* Tablet */
+/* ! Tablet */
 @media (min-width: 740px) and (max-width: 1024px) {
 }
-/* Mobile */
+
+/* ! Mobile */
 @media (max-width: 740px) {
+  .header {
+    overflow: hidden;
+  }
+  .header .search-btn {
+    display: none;
+  }
+  .header .menu-mobile-btn {
+    display: block;
+  }
+
   #nav {
     display: block;
   }
@@ -29,15 +40,5 @@
   #nav .subnav a {
     color: #fff;
     padding: 5px 41px;
-  }
-
-  .header {
-    overflow: hidden;
-  }
-  .header .search-btn {
-    display: none;
-  }
-  .header .menu-mobile-btn {
-    display: block;
   }
 }
