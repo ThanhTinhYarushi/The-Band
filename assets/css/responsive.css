@@ -11,9 +11,11 @@
   .header {
     overflow: hidden;
   }
+
   .header .search-btn {
     display: none;
   }
+
   .header .menu-mobile-btn {
     display: block;
   }
@@ -21,6 +23,7 @@
   #nav {
     display: block;
   }
+
   #nav > li {
     display: block;
   }
@@ -37,6 +40,7 @@
     position: initial;
     background-color: #333;
   }
+
   #nav .subnav a {
     color: #fff;
     padding: 5px 41px;
