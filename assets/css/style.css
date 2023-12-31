@@ -220,6 +220,11 @@ html {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
+
+  /* r */
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .content .section-heading {
@@ -509,8 +514,7 @@ html {
 
 /* * Recycle Bin: 
 -> Wrapper/Main
-  .wrapper {
-  }
+
 
   #nav li:hover a {
 }
