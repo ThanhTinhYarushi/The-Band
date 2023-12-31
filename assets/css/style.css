@@ -254,6 +254,9 @@ html {
   font-weight: 500;
   letter-spacing: 4px;
   text-transform: uppercase;
+
+  /* fix */
+  margin: 10px 0;
 }
 
 .content .section-subheading {
@@ -261,6 +264,9 @@ html {
   margin-top: 25px;
   font-style: italic;
   opacity: 0.7;
+
+  /* fix */
+  margin-bottom: 30px;
 }
 
 .content .about-text {
