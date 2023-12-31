@@ -167,9 +167,17 @@ html {
   font-size: 14px;
 }
 
+.header .menu-mobile-btn,
 .header .search-btn {
   float: right;
   padding: 0 21px;
+}
+
+.header .menu-mobile-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
 }
 
 .header .search-btn:hover {
@@ -177,6 +185,15 @@ html {
   cursor: pointer;
 }
 
+.header .menu-mobile-btn:hover {
+  background-color: #ccc;
+}
+
+.header .menu-mobile-btn:hover .menu-icon {
+  color: #000;
+}
+
+.header .menu-icon,
 .header .search-icon {
   color: #fff;
   font-size: 20px;
