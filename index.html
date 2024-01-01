@@ -241,7 +241,7 @@
                   </div>
                 </div>
                 <input
-                  class="btn pull-right mt-16 s-full-width"
+                  class="contact-submit-btn btn pull-right mt-16 s-full-width"
                   type="submit"
                   value="SEND"
                 />
@@ -312,7 +312,7 @@
             placeholder="Enter email ..."
           />
 
-          <button id="buy-tickets">
+          <button class="js-Pay-Button" id="buy-tickets">
             Pay
             <i class="ti-check"></i>
           </button>
@@ -347,9 +347,14 @@
       // nghe hành vi click button
       modalClose.addEventListener("click", hideBuyTicket);
       modal.addEventListener("click", hideBuyTicket);
+
       modalContainer.addEventListener("click", function (event) {
         event.stopPropagation();
       });
+
+      // Tự Viết
+      const modalpayButton = document.querySelector(".js-Pay-Button");
+      modalpayButton.addEventListener("click", hideBuyTicket);
     </script>
     <!-- End: Js -->
     <!-- Begin: Js r -->
