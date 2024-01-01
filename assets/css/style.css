@@ -49,7 +49,7 @@ html {
   margin-top: 15px;
   border: none;
   text-align: center;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 .btn:hover {
@@ -213,7 +213,7 @@ html {
   /* 50% chiều ngang của chính nó */
 
   position: relative;
-  background: url(/assets/img/slider/chicago.jpg) top center / cover no-repeat;
+  background: url(../img/slider/chicago.jpg) top center / cover no-repeat;
 }
 
 .slider .text-content {
@@ -233,6 +233,7 @@ html {
 .slider .text-description {
   font-size: 15px;
   margin-top: 25px;
+  text-shadow: 0 0 1px #000;
 }
 
 /* * Content */
