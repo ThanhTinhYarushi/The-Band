@@ -11,10 +11,10 @@ setInterval(function () {
   var slider = document.querySelector(".slider");
   document.querySelector(cssHeading).innerText = content[idx].split("|")[0];
   document.querySelector(cssContent).innerText = content[idx].split("|")[1];
-  slider.style.background = `url('./assets/img/slider ${
+  slider.style.background = `url('./assets/img/slider/${
     arr[idx++]
   }')  top / cover no-repeat`;
   if (idx == 3) {
     idx = 0;
   }
-}, 2000);
+}, 5000);
